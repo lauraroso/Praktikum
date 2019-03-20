@@ -1,20 +1,26 @@
-
 // Test File
 #include <iostream>                                     
 /** Multi linea
  * commentario
  */
+ using namespace std;
  
 int main(int cantidad, char* valores[])
 {     
-    int x;
-    std::cout<<"Amount Parameters "<<cantidad<<std::endl;
-    std::cout<<valores[1]<<std::endl;
+    int x [cantidad];
+   
+    cout << "Amount Parameters "<<cantidad<< endl;
+ 
+     
+     for(int i = 1; i < cantidad; i++ ){
+      
+         x[i-1] = atoi(valores[i]);
+         cout << x[i-1] << endl ;
+
     
-   x = atoi (valores[]);
+   }
     
-    
- std::cout << x ;
+ 
     
     
     
