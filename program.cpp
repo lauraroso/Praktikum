@@ -1,14 +1,22 @@
+
 // Test File
 #include <iostream>                                     
 /** Multi linea
  * commentario
  */
  
-int main(int argc, char *argv[])
+int main(int cantidad, char* valores[])
 {     
-    std::cout<<"Amount Parameters "<<argc<<std::endl;
-    std::cout<<argv[0];
-    std::cout << "Hola Nata !" ; 
-    std::cout << "Hola Daniel !" << std::endl; 
+    int x;
+    std::cout<<"Amount Parameters "<<cantidad<<std::endl;
+    std::cout<<valores[1]<<std::endl;
+    
+   x = atoi (valores[]);
+    
+    
+ std::cout << x ;
+    
+    
+    
     return 0;                                         
 }
